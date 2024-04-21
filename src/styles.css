@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a; 
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  
+  .container {
+    margin: 0 auto;
+    max-width: 600px; 
+    background-color: #1b1b1b;
+    padding: 20px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222222;
+    padding: 40px;
+    border-radius: 20px;
+    width: 600px; 
+    max-width: 90%; 
+  }
+  
+  .popup-content {
+    font-size: 20px; 
+  }
+  
+  .details{
+    align-items: center;
+  }
+  
+  .musica-imagem {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  
+  input {
+    width: 580px; 
+    padding: 10px;
+    border-radius: 5px; 
+    border: none;
+    align-self: center;
+    margin-bottom: 10px; 
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: rgb(102, 102, 102); 
+    padding: 10px;
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #888; 
+  }
+  
